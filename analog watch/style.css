@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #212121;
+}
+.container{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px white;
+}
+.clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pexels-david-ortega-2767614.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+.clock span {
+    position: absolute;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 12px;
+    text-align: center;
+}
+
+.clock span b {
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+    font-size: 20px;
+}
+
+.clock::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px; 
+    border-radius: 50%;
+    background-color:  black;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hand i {
+    position: absolute;
+    background-color: var(--clr);
+    height: var(--h);
+    transform-origin: bottom center;
+    transition: transform 0.5s cubic-bezier(0.4, 2.2, 0.4, 1);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.hand i::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--clr);
+    border-radius: 50%;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hours i {
+    width: 6px;
+}
+
+#min i {
+    width: 5px;
+}
+
+#sec i {
+    width: 4px;
+}
+.clock .operator{
+    color: tomato;
+}
