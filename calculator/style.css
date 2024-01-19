@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.calculator{
+border: 1px solid rgb(130, 70, 33);
+padding: 20px;
+border-radius: 50px;
+background-color: transparent;
+box-shadow: 0px 3px 15px  brown, .5;
+background-image: url(images/pexels-josh-hild-2704927.jpg);
+background-size: cover;
+background-position: center;
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(195, 13, 13);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: tomato;
+}
+input::placeholder{
+    color: rgb(4, 4, 4);
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: -8px 8px 15px black;
+}
+.equalbtn{
+    background-color: #008080;
+    color: black;
+}
+.operator{
+    color: black;
+}
+#hover{
+    color:  black;
+    transition: color 0.2s ease;
+}
+#hover:hover{
+    color:  white;
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .calculator {
+        border-radius: 30px;
+        background-color: transparent;
+        box-shadow: 0px 3px 10px brown;
+        padding: 15px;
+    }
+    input {
+        width: 100%; 
+        max-width: 320px;
+        border: none;
+        padding: 16px;
+        margin: 10px;
+        background: transparent;
+        box-shadow: 0px 3px 10px rgb(195, 13, 13);
+        font-size: 24px;
+        text-align: right;
+        cursor: pointer;
+        border-radius: 15px;
+        background-color: tomato;
+    }
+    button {
+        width: 50px; 
+        height: 50px;
+        margin: 8px;
+        font-size: 16px; 
+        font-weight: 500;
+        box-shadow: -6px 6px 12px black;
+    }    
+    }
