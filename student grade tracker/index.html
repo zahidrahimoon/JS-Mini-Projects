@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Grade Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Grade Tracker</h1>
+        <div id="app">
+            <div id="input-section">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" placeholder="Enter student name">
+
+                <label for="grade">Grade:</label>
+                <input type="number" id="grade" placeholder="Enter student grade">
+
+                <button onclick="addStudent()">Add Student</button>
+            </div>
+
+            <div id="output-section">
+                <h2>Student's List:</h2>
+                <ul id="studentList"></ul>
+                <p>Average Grade: <span id="averageGrade">0</span></p>
+            </div>                              
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
