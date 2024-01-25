@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  whitesmoke;
+    text-align: center;
+    margin: 25rem;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+p{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+#result{
+    color: red;
+    padding-top: 1rem;
+}
+input{
+    padding: 1rem 2rem;
+    border-radius: .1rem;
+    border: none;
+}
+input:hover{
+    border: 1px solid black;
+
+}
+button {
+    padding: 1rem;
+    background: linear-gradient(to right, #007BFF 50%, #0056b3 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease; 
+    border-radius: .1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-position: 100%;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    input {
+        padding: 0.5rem 1rem;
+    }
+
+    button {
+        padding: 0.5rem;
+    }
+}
