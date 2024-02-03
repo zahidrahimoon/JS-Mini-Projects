@@ -14,7 +14,7 @@ Welcome to my playground of coding adventures! Dive into a vibrant showcase of H
    - Unleash the magic of four interactive icons! Each click produces a lively alert, making file-sharing a visually pleasing and responsive adventure.
 
 4. **Whimsical Image Slider 📸**
-Click through a unique image slider with no navigation, where images, initially at 110px width, transform magically to 600px upon a click, creating a captivating visual journey. 🌟
+   - Click through a unique image slider with no navigation, where images, initially at 110px width, transform magically to 600px upon a click, creating a captivating visual journey. 🌟
 
 5. **Analog Watch ⌚**
    - Timeless elegance meets modern web! This responsive analog watch is not just a timepiece; it's a style statement for your projects.
