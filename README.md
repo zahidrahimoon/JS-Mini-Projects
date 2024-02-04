@@ -1,7 +1,3 @@
-# HTML/CSS/JS Adventure Collection 🚀
-
-Welcome to my playground of coding adventures! Dive into a vibrant showcase of HTML/CSS/JS projects, each designed to add a touch of excitement to the world of web development.
-
 ## Project Expedition:
 
 1. **Bubble Match Madness 🌈**
@@ -34,6 +30,12 @@ Welcome to my playground of coding adventures! Dive into a vibrant showcase of H
 10. **Student Grade Tracker 📚**
     - Navigate the academic journey effortlessly! This responsive project provides a user-friendly interface for tracking student grades with a touch of personality.
 
-Embark on this coding adventure and explore the responsive wonders within each project. Your feedback fuels the excitement!
+11. **Currency Converter 💱**
+    - Elevate your coding adventure with real-world utility! The Currency Converter project brings the world of APIs into play, providing a seamless and responsive tool for converting currencies.
 
-Happy coding and keep the adventure alive! 🚀
+    - **Key Features:**
+      - **API Integration:** Utilizes live currency exchange rates for accurate conversions.
+      - **Responsive Design:** Ensures a consistent and user-friendly experience on various devices.
+      - **Intuitive Interface:** Streamlined user interactions for effortless currency conversion.
+
+Happy coding and may your currency conversions be as smooth as your coding journey! 🌐💻
