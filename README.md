@@ -1,4 +1,4 @@
-## Project Expedition:
+# Project Expedition:
 
 1. **Bubble Match Madness 🌈**
    - Unleash your inner gamer! Engage in a lively number-selecting escapade amidst animated bubbles. Responsive design ensures the fun follows you on every device.
@@ -38,4 +38,7 @@
       - **Responsive Design:** Ensures a consistent and user-friendly experience on various devices.
       - **Intuitive Interface:** Streamlined user interactions for effortless currency conversion.
 
-Happy coding and may your currency conversions be as smooth as your coding journey! 🌐💻
+12. **Sudoku Game 🎮**
+    - Challenge your mind with Sudoku! This project provides a classic Sudoku experience entirely coded in JavaScript for learning purposes. All functionality, including puzzle generation and solving, is implemented in the code, making it ideal for learning JavaScript programming concepts.
+
+Happy coding and may your projects shine brightly in the digital realm! ✨🚀
