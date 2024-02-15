@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark-theme</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <img src="images/moon.png" id="icon" alt="Icon">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hire Me</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <h1>I'm <span>Alsa</span> Amelia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officia quaerat placeat <br> ipsum porro velit eos ex distinctio perspiciatis illo </p>
+            <a href="your-cv-link.pdf" target="_blank">Download CV</a>
+        </div>
+        <div class="img-box">
+            <img src="images/pattern.png" class="back-img">
+        <img src="images/girl.png" class="front-img">
+    </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelector('.nav-links');
+            const menuIcon = document.getElementById('menu-icon');
+
+            menuIcon.addEventListener('click', function () {
+                navLinks.classList.toggle('show');
+            });
+        });
+
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+            document.body.classList.toggle("dark-theme");
+
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "sun.png";
+            } else {
+                icon.src = "moon.png";
+            }
+        }
+    </script>
+</body>
+</html>

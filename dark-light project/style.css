@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: #fff;
+}
+
+body {
+    width: 100vw    ;
+    height: 100%;
+    background: var(--primary-color);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    padding: 1.7rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5.5rem;
+    cursor: pointer;
+}
+
+#icon {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links.show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+}
+
+.nav-links li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #606163;
+}
+
+.nav-links a:hover {
+    color: #ff4321;
+}
+
+.info {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.info h1 {
+    font-size: 3.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+span {
+    color: #ff4321;
+}
+
+.info p {
+    color: var(--secondary-color);
+    line-height: 1.5rem;
+}
+
+.info a {
+    background: var(--secondary-color);
+    padding: 0.75rem 1.1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 2rem 0;
+    border-radius: 0.3rem;
+}
+
+.info a:hover {
+    color: #ff4321;
+}
+
+.img-box {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+}
+
+.img-box img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-top: 15%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.img-box:hover .back-img {
+    bottom: 2.4rem;
+}
+
+.img-box:hover .front-img {
+    left: 54%;
+}
