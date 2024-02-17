@@ -41,5 +41,5 @@
 12. **Sudoku Game 🎮**
     - Challenge your mind with Sudoku! This project provides a classic Sudoku experience entirely coded in JavaScript for learning purposes. All functionality, including puzzle generation and solving, is implemented in the code, making it ideal for learning JavaScript programming concepts.
 
-13. **Todo List **
+13. **Todo List**
     - Crack the code with the Todo list! This responsive project is good to start.
