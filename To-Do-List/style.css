@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item button {
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.edit {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.complete {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.del {
+    background-color:  red;
+    color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
