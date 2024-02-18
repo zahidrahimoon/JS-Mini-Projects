@@ -1,3 +1,7 @@
+Certainly! Here's the modified description for your "Expedition" project, including the new Dictionary App:
+
+---
+
 # Project Expedition:
 
 1. **Bubble Match Madness 🌈**
@@ -32,14 +36,16 @@
 
 11. **Currency Converter 💱**
     - Elevate your coding adventure with real-world utility! The Currency Converter project brings the world of APIs into play, providing a seamless and responsive tool for converting currencies.
-
-    - **Key Features:**
-      - **API Integration:** Utilizes live currency exchange rates for accurate conversions.
-      - **Responsive Design:** Ensures a consistent and user-friendly experience on various devices.
-      - **Intuitive Interface:** Streamlined user interactions for effortless currency conversion.
+      - **Key Features:**
+        - **API Integration:** Utilizes live currency exchange rates for accurate conversions.
+        - **Responsive Design:** Ensures a consistent and user-friendly experience on various devices.
+        - **Intuitive Interface:** Streamlined user interactions for effortless currency conversion.
 
 12. **Sudoku Game 🎮**
     - Challenge your mind with Sudoku! This project provides a classic Sudoku experience entirely coded in JavaScript for learning purposes. All functionality, including puzzle generation and solving, is implemented in the code, making it ideal for learning JavaScript programming concepts.
 
-13. **Todo List**
-    - Crack the code with the Todo list! This responsive project is good to start.
+13. **Todo List 📝**
+    - Manage your tasks with ease! This responsive todo list allows you to keep track of your tasks and stay organized. The project features a user-friendly interface and supports adding, editing, and deleting tasks.
+
+14. **Dictionary App 📖**
+    - Explore the world of words! This responsive dictionary app provides quick and easy word lookups without the need for an API.
