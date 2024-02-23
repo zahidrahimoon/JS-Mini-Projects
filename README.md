@@ -1,7 +1,3 @@
-Certainly! Here's the modified description for your "Expedition" project, including the new Dictionary App:
-
----
-
 # Project Expedition:
 
 1. **Bubble Match Madness 🌈**
@@ -50,4 +46,4 @@ Certainly! Here's the modified description for your "Expedition" project, includ
 14. **Dictionary App 📖**
     - Explore the world of words! This responsive dictionary app provides quick and easy word lookups without the need for an API.
 15. **Image Slider2 📸**
-   - On click  functionality to an image slider so that clicking on a box changes the images.🌟
+    - On click  functionality to an image slider so that clicking on a box changes the images.🌟
