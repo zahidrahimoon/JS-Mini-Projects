@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0c0c0c;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div {
+            background-image: url(images/nature.jpg);
+            background-size: cover;
+            margin: 5rem;
+            width: 700px;
+            height: 700px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all .5s ease;
+            border: 10px solid whitesmoke;
+        }
+        div:hover {
+            transform: scale(1.2);
+            border-radius: 50%;
+        }
+        .div2 {
+            background-image: url(images/nature1.jpg);
+        }
+        .div3 {
+            background-image: url(images/nature2.jpg);
+        }
+        .div4{
+            background-image: url(images/nature3.jpg);    
+        }
+        .div5{
+            background-image: url(images/nature4.jpg);    
+        }
+        .div6{
+            background-image: url(images/nature5.jpg);    
+        }
+
+        @media (max-width: 768px) {
+            div {
+                width: 300px;
+                height: 300px;
+                margin: 2rem;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div div1" id="myDiv" onclick="changeBackground()"></div>
+
+    <script>
+        let divIndex = 1;
+        const div = document.getElementById('myDiv');
+
+        function changeBackground() {
+            divIndex = (divIndex % 5) + 1;
+            div.className = `div div${divIndex}`;
+        }
+    </script>
+</body>
+</html>
