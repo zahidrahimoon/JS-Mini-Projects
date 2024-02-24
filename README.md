@@ -47,3 +47,6 @@
     - Explore the world of words! This responsive dictionary app provides quick and easy word lookups without the need for an API.
 15. **Image Slider2 📸**
     - On click  functionality to an image slider so that clicking on a box changes the images.🌟
+16. **Random Joke Generator** 🤣
+    - Keep the laughter going with the Random Joke Generator! This project fetches jokes from an API and presents them in a responsive and user-friendly manner.
+
