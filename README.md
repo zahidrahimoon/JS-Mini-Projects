@@ -49,4 +49,11 @@
     - On click  functionality to an image slider so that clicking on a box changes the images.🌟
 16. **Random Joke Generator** 🤣
     - Keep the laughter going with the Random Joke Generator! This project fetches jokes from an API and presents them in a responsive and user-friendly manner.
+17. **Sign Up Page** ✔
+    - A simple and animated Sign Up page with form fields for Name, Email, and Password. Also includes a "Lost Password" link and a theme toggle button.HTML, CSS, and JavaScript code provided.
+      - **Features:**
+         - Animated background with sliding images.
+         - Dark and light theme toggle.
+         - Input field animation on hover.
+         - Responsive design for various screen sizes.
 
