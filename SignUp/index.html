@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-box">
+            <img src="images/moon.png" id="icon" alt="Icon">
+            <button id="goBackBtn" onclick="goBack()"><i class="fas fa-times"></i></button>
+            <h1 id="title">Sign Up</h1>
+              <form>
+                <div class="input-group">
+                    <div class="input-feild">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+                </div>
+              </form>
+              <form>
+                <div class="input-group">
+                    <div class="input-feild" id="nameFeild">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                </div>
+              </form>
+              <form>
+                <div class="input-group">
+                    <div class="input-feild">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                </div>
+                <p>Lost Password  <a href="#">Click here</a></p>
+              </form>
+                   <div class="btn-feild">
+                    <button id="SignUp" type="button">SignUp</button>
+                    <button id="SignIn" type="button" class="disable">SignIn</button>
+                   </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

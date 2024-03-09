@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:whitesmoke;
+    --secondary-color:#212121;
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:whitesmoke;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    animation: slide 10s infinite; 
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(loginbg1.jpg);
+    }
+    20% {
+        background-image: url(loginbg1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    20.01% {
+      
+        background-image: url(bg3.jpeg);
+        background-position: center;
+         background-size: cover;
+    }
+    40% {
+        background-image: url(bg3.jpeg);
+        background-position: center;
+         background-size: cover;
+    }
+    40.01% {
+        background-image: url(bg4.jpeg);
+        background-position: center;
+        background-size: cover;
+
+    }
+    60% {
+        background-image: url(bg4.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    60.01% {
+        background-image: url(bg5.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    80% {
+        background-image: url(bg5.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    80.01% {
+        background-image: url(bg6.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    100% {
+        background-image: url(bg6.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+.form-box h1{
+    color: var(--primary-color);
+}
+   #goBackBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+#icon{
+    width: 2rem;
+    cursor: pointer; 
+    top: 10px;
+    left: 10px; 
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    height: 30rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--secondary-color);
+    padding: 3.125rem 3.75rem 4.125rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.input-feild{
+    background-color: firebrick;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition:  max-height .5s;
+    overflow: hidden;
+    border-radius: .5rem;
+    color: var(--primary-color);
+}
+.input-feild:hover{
+    box-shadow: 0.2rem .2rem .2rem .2rem red;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 1.2rem 1rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+.input-feild i{
+    margin-left: 1rem;
+}
+form p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding: .2rem;
+    color: var(--primary-color);
+}
+form p a{
+    text-decoration: none;
+    color: red;
+}
+form p a:hover{
+    color: darkred;
+}
+.btn-field{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+}
+.btn-feild button{
+    flex-basis: 48%;
+    background-color: firebrick;
+    height: 2.4rem;
+    border-radius: .5rem;
+    outline: 0;
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    margin: .5rem 1rem;
+    text-align: center;
+    transition: background-color 1s;
+    border: 1px solid black;
+    font-size: 1.25rem;
+}
+.btn-feild button.disable{
+    color: "";
+    background-color: white;
+}
