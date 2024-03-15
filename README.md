@@ -56,4 +56,6 @@
          - Dark and light theme toggle.
          - Input field animation on hover.
          - Responsive design for various screen sizes.
+18. **Color Picker**🌈
+      - A simple color picker created using HTML, CSS, and JavaScript input, allowing users to select colors easily for their projects.
 
